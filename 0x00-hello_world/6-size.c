@@ -1,14 +1,20 @@
 #include<stdio.h>
-int main() {
-  int intType;
-  float floatType;
-  char charType;
-  printf("Size of char: %zu byte\n", sizeof(charType));
-  printf("Size of int: %zu bytes\n", sizeof(intType));
-  printf("Size of long int: %zu bytes\n", sizeof(long));
-  printf("Size of long long int: %zu bytes\n", sizeof(long));
-  printf("Size of float: %zu bytes\n", sizeof(floatType));
-
-
-  return 0;
+/**
+ * main to start
+ * 
+ * return 0
+*/
+int main(void)
+{
+int i;
+float f;
+char c;
+long int lint;
+long long int llint;
+printf("Size of char: %zu byte(s)\n", sizeof(c));
+printf("Size of int: %zu byte(s)\n", sizeof(i));
+printf("Size of long int: %zu byte(s)\n", sizeof(lint));
+printf("Size of long long int: %zu byte(s)\n", sizeof(llint));
+printf("Size of float: %zu byte(s)\n", sizeof(f));
+return 0;
 }
