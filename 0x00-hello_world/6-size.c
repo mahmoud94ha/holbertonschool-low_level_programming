@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main to start
- * 
- * return 0
+* main to start
+* 
+* return 0
 */
 int main(void)
 {
@@ -16,5 +16,5 @@ printf("Size of int: %zu byte(s)\n", sizeof(i));
 printf("Size of long int: %zu byte(s)\n", sizeof(longint));
 printf("Size of long long int: %zu byte(s)\n", sizeof(longlong));
 printf("Size of float: %zu byte(s)\n", sizeof(floatt));
-return 0;
+return(0);
 }
