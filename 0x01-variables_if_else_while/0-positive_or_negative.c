@@ -4,8 +4,7 @@
 /**
 * main - its here where
 * we start the main program
-*
-* return 0
+* return : always 0 (succes)
 */
 int main(void)
 {
@@ -13,7 +12,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	return (0);
 
 if (n > 0)
 printf("%d is positive\n", n);
