@@ -4,6 +4,8 @@
 /**
 * main - its here where
 * we start the main program
+*
+* return 0
 */
 int main(void)
 {
@@ -19,4 +21,5 @@ if (n == 0)
 printf("is zero\n");
 else
 printf("is negative\n");
+return (0);
 }
