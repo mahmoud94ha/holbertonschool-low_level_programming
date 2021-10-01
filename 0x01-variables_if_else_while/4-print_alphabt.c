@@ -7,13 +7,13 @@
 	int main(void)
 {
 	char al;
-    char a1 = 'a';
-    char a2 = 'b';
-    char a3 = 'c';
-    char a4 = 'd';
+	for (al = 'a'; al <= 'd'; al++)
+	{
+	    putchar(al);
+	}
 	for (al = 'f'; al <= 'p'; al++)
 	{
-		putchar (a1+a2+a3+a4+al);
+		putchar (al);
 	}
 	for (al = 'r'; al <= 'z'; al++)
 	{
