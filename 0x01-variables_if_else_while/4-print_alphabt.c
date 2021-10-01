@@ -7,7 +7,6 @@
 	int main(void)
 {
 	char al;
-	char all;
     char a1 = 'a';
     char a2 = 'b';
     char a3 = 'c';
