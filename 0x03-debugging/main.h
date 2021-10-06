@@ -4,5 +4,6 @@
 #include <stdio.h>
 
 void positive_or_negative(int i);
+_putchar;
 
 #endif /* MAIN_H */
