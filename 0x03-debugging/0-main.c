@@ -7,13 +7,16 @@
 */
 void positive_or_negative(int i)
 {
-	if (i > 0)
-	{
-		_putchar(is positive);
-	}
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
 	else
-	{
-		_putchar(is negative);
-	}
-	return (0);
+		printf("%d is negative\n", n);
+return (0);
 }
