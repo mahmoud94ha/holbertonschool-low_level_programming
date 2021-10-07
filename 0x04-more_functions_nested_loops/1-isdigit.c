@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-* _isupper - description for this function
+* _isdigit - description for this function
 * @c: parameter
 * Return: Always 0 (Success)
 */
-int _isupper(int c)
+int _isdigit(int c)
 {
-if (c >= 'A' && c <= 'Z')
+if (c >= '0' && c <= '9')
 return (1);
 else
 return (0);
