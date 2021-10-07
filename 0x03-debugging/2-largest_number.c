@@ -25,20 +25,6 @@ int largest_number(int a, int b, int c)
 		largest = c;
 	}
 
-	if (a > b && a > c)
-	{
-		largest = a;
-		printf(largest);
-	}
-	else if (b > a && b > c)
-	{
-		largest = b;
-	}
-	else
-	{
-	largest = c;
-}
-
 	return (largest);
 }
 
