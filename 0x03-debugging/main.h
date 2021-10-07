@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <time.h>
 void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
 _putchar;
 
 #endif /* MAIN_H */
