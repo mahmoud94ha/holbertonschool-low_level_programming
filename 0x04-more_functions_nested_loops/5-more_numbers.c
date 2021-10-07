@@ -1,20 +1,22 @@
 #include "main.h"
 /**
-* more_numbers - description for this function
-* Return: Always 0 (Success)
+*more_numbers - prints from 0 to 9
+*
+* Return - void
 */
 void more_numbers(void)
 {
-int i, j, n;
-for (j = 0; j <= 9; j++)
+int x, i;
+for (i = 1; i <= 10; i++)
 {
-for (i = 0; i <= 14; i++)
+for (x = 0; x <= 14; x++)
 {
-n = i % 10;
-if
-(i >= 10)
-_putchar('0' + 1);
-_putchar('0' + n);
+if (x > 9)
+{
+_putchar((x / 10) + '0');
+}
+_putchar((x % 10) + '0');
 }
 _putchar('\n');
+}
 }
