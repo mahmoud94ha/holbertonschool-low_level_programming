@@ -1,10 +1,11 @@
 #include "main.h"
 /**
-*
-*
+*print_square - prints the square format
+*@size: int
 */
 void print_square(int size)
 {
+
 int i, j;
 
 if (size >= 0)
@@ -17,6 +18,7 @@ if (size >= 0)
 		}
 		putchar ('\n');
 	}
+
 else
-putchar('\');
+putchar('\n');
 }
