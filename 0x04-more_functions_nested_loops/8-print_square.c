@@ -14,11 +14,11 @@ if (size >= 0)
 	{
 		for (j = 1; j <= size; j++)
 		{
-			putchar ('#');
+			_putchar ('#');
 		}
-		putchar ('\n');
+		_putchar ('\n');
 	}
 
 else
-putchar('\n');
+_putchar('\n');
 }
