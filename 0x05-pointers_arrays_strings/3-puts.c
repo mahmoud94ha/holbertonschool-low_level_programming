@@ -1,4 +1,5 @@
 include "main.h"
+include <string.h>
 /**
 *_puts - function that returns length
 *@str:pointer
