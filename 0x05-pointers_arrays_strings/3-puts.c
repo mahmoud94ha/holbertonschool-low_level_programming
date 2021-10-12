@@ -6,14 +6,10 @@
 */
 void _puts(char *str)
 {
-	int i;
-	char ch[j];
 
-	i = 10;
-	while (i < 20)
+	while (*str)
 	{
-		_putchar(str);
-		i++;
+		_putchar(*str++);
 	}
 	_putchar('\n');
 }
