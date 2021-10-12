@@ -9,7 +9,7 @@ void _puts(char *str)
 	int i;
 	char ch[j];
 
-	ch[j]=*str
+	ch[j]=*str;
 	i = 10;
 	while (i < 20)
 	{
