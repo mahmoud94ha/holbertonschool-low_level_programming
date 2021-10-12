@@ -8,7 +8,8 @@ v
 void _puts(char *str)
 {
 	int i;
-	for(i = 0; i++)
+
+	while(i > 1)
 	{
 		_putchar(*str);
 		i++;
