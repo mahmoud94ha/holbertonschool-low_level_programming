@@ -8,6 +8,7 @@ void _puts(char *str)
 {
 	int i;
 	ch = *str;
+	char ch;
 
 	i = 10;
 	while(i < 20)
