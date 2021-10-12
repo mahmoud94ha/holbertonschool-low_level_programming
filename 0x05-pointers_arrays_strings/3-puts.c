@@ -7,7 +7,6 @@
 void _puts(char *str)
 {
 	int i;
-	char ch[j];
 
 	i = 10;
 	while (i < 20)
