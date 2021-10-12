@@ -4,7 +4,6 @@
 *_puts -  function that prints a string, followed by a new line
 *
 */
-v
 void _puts(char *str)
 {
 	int i;
