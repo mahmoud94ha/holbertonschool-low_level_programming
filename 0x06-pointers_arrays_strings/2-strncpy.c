@@ -1,9 +1,23 @@
 #include "main.h"
 /**
-*
-*
-*/
-char *_strncpy(char *dest, char *src, int n)
+ * *_strncat - function
+ *@dest: pointer
+ *@src: pointer
+ *@n: integer
+ *Return: char
+ */
+char *_strncat(char *dest, char *src, int n)
 {
-	strcat(dest,src);
+int i, j;
+i = 0;
+j = 0;
+while (*(dest + i))
+i++;
+while (j < n && *(src + j))
+{
+*(dest + i) = *(src + j);
+i++;
+j++;
+}
+return (dest);
 }
