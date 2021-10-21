@@ -11,6 +11,3 @@ int _putchar(char c);
 int _sqrt(int n, int i);
 int prime(int n, int i);
 int pal(char *s, int len);
-© 2021 GitHub, Inc.
-Terms
-Privacy
