@@ -1,5 +1,5 @@
 #ifndef MAIN.H
-#define MAIN.H
+#define MAIN.h
 
 
 int _putchar(char c);
