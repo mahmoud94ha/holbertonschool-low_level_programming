@@ -1,18 +1,19 @@
-#include <stdio.h>
-#include "holberton.h"
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
+#include "main.h"
 /**
- *print_binary - fn
- *@n: param
- * Return: Always 0.
- */
+* print_binary - prints the binary number of an unsigned long int
+* @n: the number that will be converted
+*/
 void print_binary(unsigned long int n)
 {
-if (n > 1)
+
+if (n == 0 || n == 1)
 {
-print_binary(n >> 1);
+_putchar(n + '0');
 }
-_putchar ((n & 1) + '0');
+else
+{
+
+print_binary(n >> 1);
+_putchar((n & 1) + '0');
+}
 }
