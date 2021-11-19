@@ -11,4 +11,4 @@ main:
 	syscall
 
 section .data
-    msg db	"Hello, Holberton", `\n`
+    msg db	"Hello, World", `\n`
