@@ -1,30 +1,31 @@
+#include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
 /**
- * read_textfile - fn
- * @filename: param
- * @letters: param
- * Return: int
+ *create_file - fn
+ *@filename: param
+ *@text_content: param
+ *Return: int
  */
-ssize_t read_textfile(const char *filename, size_t letters)
+int create_file(const char *filename, char *text_content)
 {
-int i, j = 0, k = 0;
-char *f;
+register int i, j, k;
+k = 0;
 if (filename == NULL)
-return (0);
-f = malloc(sizeof(char) * letters);
-if (f == NULL)
-return (0);
-i = open(filename, O_RDONLY);
+return (-1);
+i = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
 if (i == -1)
-return (0);
-j = read(i, f, letters);
-if (j == -1)
-return (0);
-while (f[k] != '\0')
+return (-1);
+if (text_content)
+{
+while (text_content[k])
 k++;
-j = write(STDOUT_FILENO, f, k);
+j = write(i, text_content, k);
 if (j == -1)
-return (0);
+return (-1);
+}
 close(i);
-return (j);
+return (1);
 }
